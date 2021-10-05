@@ -1,12 +1,17 @@
 package com.refresh.pos.domain.sale;
 
+import com.refresh.pos.config.Global;
 import com.refresh.pos.domain.DateTimeStrategy;
 import com.refresh.pos.domain.inventory.Inventory;
 import com.refresh.pos.domain.inventory.LineItem;
 import com.refresh.pos.domain.inventory.Product;
 import com.refresh.pos.domain.inventory.Stock;
+import com.refresh.pos.network.CreHttpRequest;
 import com.refresh.pos.techicalservices.NoDaoSetException;
 import com.refresh.pos.techicalservices.sale.SaleDao;
+import com.refresh.pos.ui.CreAbsActivity;
+
+import java.util.HashMap;
 
 /**
  * Handles all Sale processes.
@@ -78,9 +83,62 @@ public class Register {
 			currentSale.setMobile(mobile);
 			currentSale.setDiscount(discount);
 			saleDao.endSale(currentSale, endTime,mobile,discount);
-			for(LineItem line : currentSale.getAllLineItem()){
-				stock.updateStockSum(line.getProduct().getId(), line.getQuantity());
-			}
+
+				HashMap<String, String> params = new HashMap<>();
+				//////////////////////////////////////////////////////////////////////////////
+				params.put("key", Global._papiKey);
+				params.put("user_id", "");
+				params.put("account", "");
+				params.put("duedate", endTime);
+				params.put("subtotal", String.valueOf(currentSale.getTotal()));
+				params.put("discount_type","");
+				params.put("iid", "");
+				params.put("nd", "");
+				params.put("r", "");
+				params.put("ptoken", "");
+				params.put("vtoken", "");
+				params.put("notes", "");
+				params.put("method", "insertSysInvoice");
+				params.put("paymentmethod", "");
+				params.put("status", currentSale.getStatus());
+				params.put("taxrate2", "");
+				params.put("taxrate", "");
+				params.put("total", String.valueOf(currentSale.getTotal()));
+				params.put("tax2", "");
+				params.put("tax", "");
+				params.put("taxname", "");
+				params.put("credit", "");
+				params.put("discount", String.valueOf( currentSale.getdiscount()));
+				params.put("discount_value", String.valueOf( currentSale.getdiscount()));
+
+				CreHttpRequest.doHttpPost(Global._pserverUrl, params, new CreAbsActivity() {
+					@Override
+					public int onRequestSuccess(String code, String msg) {
+
+						try{
+							for(LineItem line : currentSale.getAllLineItem()){
+								stock.updateStockSum(line.getProduct().getId(), line.getQuantity());
+							}
+						}catch (Exception e){e.printStackTrace();}
+						return 0;
+					}
+
+					@Override
+					public int onRequestFail(String code, String msg) {
+						return 0;
+					}
+
+					@Override
+					public void showProgress(boolean bshow) {
+
+					}
+				});
+
+
+
+
+
+
 			currentSale = null;
 		}
 	}

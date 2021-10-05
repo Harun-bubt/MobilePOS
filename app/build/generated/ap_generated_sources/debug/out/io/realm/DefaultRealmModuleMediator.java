@@ -27,8 +27,8 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
     private static final Set<Class<? extends RealmModel>> MODEL_CLASSES;
     static {
         Set<Class<? extends RealmModel>> modelClasses = new HashSet<Class<? extends RealmModel>>(4);
-        modelClasses.add(com.refresh.pos.domain.inventory.Product.class);
         modelClasses.add(com.refresh.pos.domain.inventory.LineItem.class);
+        modelClasses.add(com.refresh.pos.domain.inventory.Product.class);
         modelClasses.add(com.refresh.pos.domain.sale.QuickLoadSale.class);
         modelClasses.add(com.refresh.pos.domain.sale.Sale.class);
         MODEL_CLASSES = Collections.unmodifiableSet(modelClasses);
@@ -37,8 +37,8 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
     @Override
     public Map<Class<? extends RealmModel>, OsObjectSchemaInfo> getExpectedObjectSchemaInfoMap() {
         Map<Class<? extends RealmModel>, OsObjectSchemaInfo> infoMap = new HashMap<Class<? extends RealmModel>, OsObjectSchemaInfo>(4);
-        infoMap.put(com.refresh.pos.domain.inventory.Product.class, io.realm.com_refresh_pos_domain_inventory_ProductRealmProxy.getExpectedObjectSchemaInfo());
         infoMap.put(com.refresh.pos.domain.inventory.LineItem.class, io.realm.com_refresh_pos_domain_inventory_LineItemRealmProxy.getExpectedObjectSchemaInfo());
+        infoMap.put(com.refresh.pos.domain.inventory.Product.class, io.realm.com_refresh_pos_domain_inventory_ProductRealmProxy.getExpectedObjectSchemaInfo());
         infoMap.put(com.refresh.pos.domain.sale.QuickLoadSale.class, io.realm.com_refresh_pos_domain_sale_QuickLoadSaleRealmProxy.getExpectedObjectSchemaInfo());
         infoMap.put(com.refresh.pos.domain.sale.Sale.class, io.realm.com_refresh_pos_domain_sale_SaleRealmProxy.getExpectedObjectSchemaInfo());
         return infoMap;
@@ -48,11 +48,11 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
     public ColumnInfo createColumnInfo(Class<? extends RealmModel> clazz, OsSchemaInfo schemaInfo) {
         checkClass(clazz);
 
-        if (clazz.equals(com.refresh.pos.domain.inventory.Product.class)) {
-            return io.realm.com_refresh_pos_domain_inventory_ProductRealmProxy.createColumnInfo(schemaInfo);
-        }
         if (clazz.equals(com.refresh.pos.domain.inventory.LineItem.class)) {
             return io.realm.com_refresh_pos_domain_inventory_LineItemRealmProxy.createColumnInfo(schemaInfo);
+        }
+        if (clazz.equals(com.refresh.pos.domain.inventory.Product.class)) {
+            return io.realm.com_refresh_pos_domain_inventory_ProductRealmProxy.createColumnInfo(schemaInfo);
         }
         if (clazz.equals(com.refresh.pos.domain.sale.QuickLoadSale.class)) {
             return io.realm.com_refresh_pos_domain_sale_QuickLoadSaleRealmProxy.createColumnInfo(schemaInfo);
@@ -67,11 +67,11 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
     public String getSimpleClassNameImpl(Class<? extends RealmModel> clazz) {
         checkClass(clazz);
 
-        if (clazz.equals(com.refresh.pos.domain.inventory.Product.class)) {
-            return "Product";
-        }
         if (clazz.equals(com.refresh.pos.domain.inventory.LineItem.class)) {
             return "LineItem";
+        }
+        if (clazz.equals(com.refresh.pos.domain.inventory.Product.class)) {
+            return "Product";
         }
         if (clazz.equals(com.refresh.pos.domain.sale.QuickLoadSale.class)) {
             return "QuickLoadSale";
@@ -86,11 +86,11 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
     public Class<? extends RealmModel> getClazzImpl(String className) {
         checkClassName(className);
 
-        if (className.equals("Product")) {
-            return com.refresh.pos.domain.inventory.Product.class;
-        }
         if (className.equals("LineItem")) {
             return com.refresh.pos.domain.inventory.LineItem.class;
+        }
+        if (className.equals("Product")) {
+            return com.refresh.pos.domain.inventory.Product.class;
         }
         if (className.equals("QuickLoadSale")) {
             return com.refresh.pos.domain.sale.QuickLoadSale.class;
@@ -103,8 +103,8 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
 
     @Override
     public boolean hasPrimaryKeyImpl(Class<? extends RealmModel> clazz) {
-        return com.refresh.pos.domain.inventory.Product.class.isAssignableFrom(clazz)
-                || com.refresh.pos.domain.inventory.LineItem.class.isAssignableFrom(clazz)
+        return com.refresh.pos.domain.inventory.LineItem.class.isAssignableFrom(clazz)
+                || com.refresh.pos.domain.inventory.Product.class.isAssignableFrom(clazz)
                 || com.refresh.pos.domain.sale.QuickLoadSale.class.isAssignableFrom(clazz)
                 || com.refresh.pos.domain.sale.Sale.class.isAssignableFrom(clazz);
     }
@@ -116,11 +116,11 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
             objectContext.set((BaseRealm) baseRealm, row, columnInfo, acceptDefaultValue, excludeFields);
             checkClass(clazz);
 
-            if (clazz.equals(com.refresh.pos.domain.inventory.Product.class)) {
-                return clazz.cast(new io.realm.com_refresh_pos_domain_inventory_ProductRealmProxy());
-            }
             if (clazz.equals(com.refresh.pos.domain.inventory.LineItem.class)) {
                 return clazz.cast(new io.realm.com_refresh_pos_domain_inventory_LineItemRealmProxy());
+            }
+            if (clazz.equals(com.refresh.pos.domain.inventory.Product.class)) {
+                return clazz.cast(new io.realm.com_refresh_pos_domain_inventory_ProductRealmProxy());
             }
             if (clazz.equals(com.refresh.pos.domain.sale.QuickLoadSale.class)) {
                 return clazz.cast(new io.realm.com_refresh_pos_domain_sale_QuickLoadSaleRealmProxy());
@@ -145,13 +145,13 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
         // generated by RealmProxy or the original type extending directly from RealmObject
         @SuppressWarnings("unchecked") Class<E> clazz = (Class<E>) ((obj instanceof RealmObjectProxy) ? obj.getClass().getSuperclass() : obj.getClass());
 
-        if (clazz.equals(com.refresh.pos.domain.inventory.Product.class)) {
-            com_refresh_pos_domain_inventory_ProductRealmProxy.ProductColumnInfo columnInfo = (com_refresh_pos_domain_inventory_ProductRealmProxy.ProductColumnInfo) realm.getSchema().getColumnInfo(com.refresh.pos.domain.inventory.Product.class);
-            return clazz.cast(io.realm.com_refresh_pos_domain_inventory_ProductRealmProxy.copyOrUpdate(realm, columnInfo, (com.refresh.pos.domain.inventory.Product) obj, update, cache, flags));
-        }
         if (clazz.equals(com.refresh.pos.domain.inventory.LineItem.class)) {
             com_refresh_pos_domain_inventory_LineItemRealmProxy.LineItemColumnInfo columnInfo = (com_refresh_pos_domain_inventory_LineItemRealmProxy.LineItemColumnInfo) realm.getSchema().getColumnInfo(com.refresh.pos.domain.inventory.LineItem.class);
             return clazz.cast(io.realm.com_refresh_pos_domain_inventory_LineItemRealmProxy.copyOrUpdate(realm, columnInfo, (com.refresh.pos.domain.inventory.LineItem) obj, update, cache, flags));
+        }
+        if (clazz.equals(com.refresh.pos.domain.inventory.Product.class)) {
+            com_refresh_pos_domain_inventory_ProductRealmProxy.ProductColumnInfo columnInfo = (com_refresh_pos_domain_inventory_ProductRealmProxy.ProductColumnInfo) realm.getSchema().getColumnInfo(com.refresh.pos.domain.inventory.Product.class);
+            return clazz.cast(io.realm.com_refresh_pos_domain_inventory_ProductRealmProxy.copyOrUpdate(realm, columnInfo, (com.refresh.pos.domain.inventory.Product) obj, update, cache, flags));
         }
         if (clazz.equals(com.refresh.pos.domain.sale.QuickLoadSale.class)) {
             com_refresh_pos_domain_sale_QuickLoadSaleRealmProxy.QuickLoadSaleColumnInfo columnInfo = (com_refresh_pos_domain_sale_QuickLoadSaleRealmProxy.QuickLoadSaleColumnInfo) realm.getSchema().getColumnInfo(com.refresh.pos.domain.sale.QuickLoadSale.class);
@@ -170,10 +170,10 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
         // generated by RealmProxy or the original type extending directly from RealmObject
         @SuppressWarnings("unchecked") Class<RealmModel> clazz = (Class<RealmModel>) ((object instanceof RealmObjectProxy) ? object.getClass().getSuperclass() : object.getClass());
 
-        if (clazz.equals(com.refresh.pos.domain.inventory.Product.class)) {
-            return io.realm.com_refresh_pos_domain_inventory_ProductRealmProxy.insert(realm, (com.refresh.pos.domain.inventory.Product) object, cache);
-        } else if (clazz.equals(com.refresh.pos.domain.inventory.LineItem.class)) {
+        if (clazz.equals(com.refresh.pos.domain.inventory.LineItem.class)) {
             return io.realm.com_refresh_pos_domain_inventory_LineItemRealmProxy.insert(realm, (com.refresh.pos.domain.inventory.LineItem) object, cache);
+        } else if (clazz.equals(com.refresh.pos.domain.inventory.Product.class)) {
+            return io.realm.com_refresh_pos_domain_inventory_ProductRealmProxy.insert(realm, (com.refresh.pos.domain.inventory.Product) object, cache);
         } else if (clazz.equals(com.refresh.pos.domain.sale.QuickLoadSale.class)) {
             return io.realm.com_refresh_pos_domain_sale_QuickLoadSaleRealmProxy.insert(realm, (com.refresh.pos.domain.sale.QuickLoadSale) object, cache);
         } else if (clazz.equals(com.refresh.pos.domain.sale.Sale.class)) {
@@ -195,10 +195,10 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
             // generated by RealmProxy or the original type extending directly from RealmObject
             @SuppressWarnings("unchecked") Class<RealmModel> clazz = (Class<RealmModel>) ((object instanceof RealmObjectProxy) ? object.getClass().getSuperclass() : object.getClass());
 
-            if (clazz.equals(com.refresh.pos.domain.inventory.Product.class)) {
-                io.realm.com_refresh_pos_domain_inventory_ProductRealmProxy.insert(realm, (com.refresh.pos.domain.inventory.Product) object, cache);
-            } else if (clazz.equals(com.refresh.pos.domain.inventory.LineItem.class)) {
+            if (clazz.equals(com.refresh.pos.domain.inventory.LineItem.class)) {
                 io.realm.com_refresh_pos_domain_inventory_LineItemRealmProxy.insert(realm, (com.refresh.pos.domain.inventory.LineItem) object, cache);
+            } else if (clazz.equals(com.refresh.pos.domain.inventory.Product.class)) {
+                io.realm.com_refresh_pos_domain_inventory_ProductRealmProxy.insert(realm, (com.refresh.pos.domain.inventory.Product) object, cache);
             } else if (clazz.equals(com.refresh.pos.domain.sale.QuickLoadSale.class)) {
                 io.realm.com_refresh_pos_domain_sale_QuickLoadSaleRealmProxy.insert(realm, (com.refresh.pos.domain.sale.QuickLoadSale) object, cache);
             } else if (clazz.equals(com.refresh.pos.domain.sale.Sale.class)) {
@@ -207,10 +207,10 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
                 throw getMissingProxyClassException(clazz);
             }
             if (iterator.hasNext()) {
-                if (clazz.equals(com.refresh.pos.domain.inventory.Product.class)) {
-                    io.realm.com_refresh_pos_domain_inventory_ProductRealmProxy.insert(realm, iterator, cache);
-                } else if (clazz.equals(com.refresh.pos.domain.inventory.LineItem.class)) {
+                if (clazz.equals(com.refresh.pos.domain.inventory.LineItem.class)) {
                     io.realm.com_refresh_pos_domain_inventory_LineItemRealmProxy.insert(realm, iterator, cache);
+                } else if (clazz.equals(com.refresh.pos.domain.inventory.Product.class)) {
+                    io.realm.com_refresh_pos_domain_inventory_ProductRealmProxy.insert(realm, iterator, cache);
                 } else if (clazz.equals(com.refresh.pos.domain.sale.QuickLoadSale.class)) {
                     io.realm.com_refresh_pos_domain_sale_QuickLoadSaleRealmProxy.insert(realm, iterator, cache);
                 } else if (clazz.equals(com.refresh.pos.domain.sale.Sale.class)) {
@@ -228,10 +228,10 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
         // generated by RealmProxy or the original type extending directly from RealmObject
         @SuppressWarnings("unchecked") Class<RealmModel> clazz = (Class<RealmModel>) ((obj instanceof RealmObjectProxy) ? obj.getClass().getSuperclass() : obj.getClass());
 
-        if (clazz.equals(com.refresh.pos.domain.inventory.Product.class)) {
-            return io.realm.com_refresh_pos_domain_inventory_ProductRealmProxy.insertOrUpdate(realm, (com.refresh.pos.domain.inventory.Product) obj, cache);
-        } else if (clazz.equals(com.refresh.pos.domain.inventory.LineItem.class)) {
+        if (clazz.equals(com.refresh.pos.domain.inventory.LineItem.class)) {
             return io.realm.com_refresh_pos_domain_inventory_LineItemRealmProxy.insertOrUpdate(realm, (com.refresh.pos.domain.inventory.LineItem) obj, cache);
+        } else if (clazz.equals(com.refresh.pos.domain.inventory.Product.class)) {
+            return io.realm.com_refresh_pos_domain_inventory_ProductRealmProxy.insertOrUpdate(realm, (com.refresh.pos.domain.inventory.Product) obj, cache);
         } else if (clazz.equals(com.refresh.pos.domain.sale.QuickLoadSale.class)) {
             return io.realm.com_refresh_pos_domain_sale_QuickLoadSaleRealmProxy.insertOrUpdate(realm, (com.refresh.pos.domain.sale.QuickLoadSale) obj, cache);
         } else if (clazz.equals(com.refresh.pos.domain.sale.Sale.class)) {
@@ -253,10 +253,10 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
             // generated by RealmProxy or the original type extending directly from RealmObject
             @SuppressWarnings("unchecked") Class<RealmModel> clazz = (Class<RealmModel>) ((object instanceof RealmObjectProxy) ? object.getClass().getSuperclass() : object.getClass());
 
-            if (clazz.equals(com.refresh.pos.domain.inventory.Product.class)) {
-                io.realm.com_refresh_pos_domain_inventory_ProductRealmProxy.insertOrUpdate(realm, (com.refresh.pos.domain.inventory.Product) object, cache);
-            } else if (clazz.equals(com.refresh.pos.domain.inventory.LineItem.class)) {
+            if (clazz.equals(com.refresh.pos.domain.inventory.LineItem.class)) {
                 io.realm.com_refresh_pos_domain_inventory_LineItemRealmProxy.insertOrUpdate(realm, (com.refresh.pos.domain.inventory.LineItem) object, cache);
+            } else if (clazz.equals(com.refresh.pos.domain.inventory.Product.class)) {
+                io.realm.com_refresh_pos_domain_inventory_ProductRealmProxy.insertOrUpdate(realm, (com.refresh.pos.domain.inventory.Product) object, cache);
             } else if (clazz.equals(com.refresh.pos.domain.sale.QuickLoadSale.class)) {
                 io.realm.com_refresh_pos_domain_sale_QuickLoadSaleRealmProxy.insertOrUpdate(realm, (com.refresh.pos.domain.sale.QuickLoadSale) object, cache);
             } else if (clazz.equals(com.refresh.pos.domain.sale.Sale.class)) {
@@ -265,10 +265,10 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
                 throw getMissingProxyClassException(clazz);
             }
             if (iterator.hasNext()) {
-                if (clazz.equals(com.refresh.pos.domain.inventory.Product.class)) {
-                    io.realm.com_refresh_pos_domain_inventory_ProductRealmProxy.insertOrUpdate(realm, iterator, cache);
-                } else if (clazz.equals(com.refresh.pos.domain.inventory.LineItem.class)) {
+                if (clazz.equals(com.refresh.pos.domain.inventory.LineItem.class)) {
                     io.realm.com_refresh_pos_domain_inventory_LineItemRealmProxy.insertOrUpdate(realm, iterator, cache);
+                } else if (clazz.equals(com.refresh.pos.domain.inventory.Product.class)) {
+                    io.realm.com_refresh_pos_domain_inventory_ProductRealmProxy.insertOrUpdate(realm, iterator, cache);
                 } else if (clazz.equals(com.refresh.pos.domain.sale.QuickLoadSale.class)) {
                     io.realm.com_refresh_pos_domain_sale_QuickLoadSaleRealmProxy.insertOrUpdate(realm, iterator, cache);
                 } else if (clazz.equals(com.refresh.pos.domain.sale.Sale.class)) {
@@ -285,11 +285,11 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
         throws JSONException {
         checkClass(clazz);
 
-        if (clazz.equals(com.refresh.pos.domain.inventory.Product.class)) {
-            return clazz.cast(io.realm.com_refresh_pos_domain_inventory_ProductRealmProxy.createOrUpdateUsingJsonObject(realm, json, update));
-        }
         if (clazz.equals(com.refresh.pos.domain.inventory.LineItem.class)) {
             return clazz.cast(io.realm.com_refresh_pos_domain_inventory_LineItemRealmProxy.createOrUpdateUsingJsonObject(realm, json, update));
+        }
+        if (clazz.equals(com.refresh.pos.domain.inventory.Product.class)) {
+            return clazz.cast(io.realm.com_refresh_pos_domain_inventory_ProductRealmProxy.createOrUpdateUsingJsonObject(realm, json, update));
         }
         if (clazz.equals(com.refresh.pos.domain.sale.QuickLoadSale.class)) {
             return clazz.cast(io.realm.com_refresh_pos_domain_sale_QuickLoadSaleRealmProxy.createOrUpdateUsingJsonObject(realm, json, update));
@@ -305,11 +305,11 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
         throws IOException {
         checkClass(clazz);
 
-        if (clazz.equals(com.refresh.pos.domain.inventory.Product.class)) {
-            return clazz.cast(io.realm.com_refresh_pos_domain_inventory_ProductRealmProxy.createUsingJsonStream(realm, reader));
-        }
         if (clazz.equals(com.refresh.pos.domain.inventory.LineItem.class)) {
             return clazz.cast(io.realm.com_refresh_pos_domain_inventory_LineItemRealmProxy.createUsingJsonStream(realm, reader));
+        }
+        if (clazz.equals(com.refresh.pos.domain.inventory.Product.class)) {
+            return clazz.cast(io.realm.com_refresh_pos_domain_inventory_ProductRealmProxy.createUsingJsonStream(realm, reader));
         }
         if (clazz.equals(com.refresh.pos.domain.sale.QuickLoadSale.class)) {
             return clazz.cast(io.realm.com_refresh_pos_domain_sale_QuickLoadSaleRealmProxy.createUsingJsonStream(realm, reader));
@@ -326,11 +326,11 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
         // generated by RealmProxy or the original type extending directly from RealmObject
         @SuppressWarnings("unchecked") Class<E> clazz = (Class<E>) realmObject.getClass().getSuperclass();
 
-        if (clazz.equals(com.refresh.pos.domain.inventory.Product.class)) {
-            return clazz.cast(io.realm.com_refresh_pos_domain_inventory_ProductRealmProxy.createDetachedCopy((com.refresh.pos.domain.inventory.Product) realmObject, 0, maxDepth, cache));
-        }
         if (clazz.equals(com.refresh.pos.domain.inventory.LineItem.class)) {
             return clazz.cast(io.realm.com_refresh_pos_domain_inventory_LineItemRealmProxy.createDetachedCopy((com.refresh.pos.domain.inventory.LineItem) realmObject, 0, maxDepth, cache));
+        }
+        if (clazz.equals(com.refresh.pos.domain.inventory.Product.class)) {
+            return clazz.cast(io.realm.com_refresh_pos_domain_inventory_ProductRealmProxy.createDetachedCopy((com.refresh.pos.domain.inventory.Product) realmObject, 0, maxDepth, cache));
         }
         if (clazz.equals(com.refresh.pos.domain.sale.QuickLoadSale.class)) {
             return clazz.cast(io.realm.com_refresh_pos_domain_sale_QuickLoadSaleRealmProxy.createDetachedCopy((com.refresh.pos.domain.sale.QuickLoadSale) realmObject, 0, maxDepth, cache));
@@ -343,10 +343,10 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
 
     @Override
     public <E extends RealmModel> boolean isEmbedded(Class<E> clazz) {
-        if (clazz.equals(com.refresh.pos.domain.inventory.Product.class)) {
+        if (clazz.equals(com.refresh.pos.domain.inventory.LineItem.class)) {
             return false;
         }
-        if (clazz.equals(com.refresh.pos.domain.inventory.LineItem.class)) {
+        if (clazz.equals(com.refresh.pos.domain.inventory.Product.class)) {
             return false;
         }
         if (clazz.equals(com.refresh.pos.domain.sale.QuickLoadSale.class)) {
@@ -364,10 +364,10 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
         // generated by RealmProxy or the original type extending directly from RealmObject
         @SuppressWarnings("unchecked") Class<E> clazz = (Class<E>) managedObject.getClass().getSuperclass();
 
-        if (clazz.equals(com.refresh.pos.domain.inventory.Product.class)) {
-            throw getNotEmbeddedClassException("com.refresh.pos.domain.inventory.Product");
-        } else if (clazz.equals(com.refresh.pos.domain.inventory.LineItem.class)) {
+        if (clazz.equals(com.refresh.pos.domain.inventory.LineItem.class)) {
             throw getNotEmbeddedClassException("com.refresh.pos.domain.inventory.LineItem");
+        } else if (clazz.equals(com.refresh.pos.domain.inventory.Product.class)) {
+            throw getNotEmbeddedClassException("com.refresh.pos.domain.inventory.Product");
         } else if (clazz.equals(com.refresh.pos.domain.sale.QuickLoadSale.class)) {
             throw getNotEmbeddedClassException("com.refresh.pos.domain.sale.QuickLoadSale");
         } else if (clazz.equals(com.refresh.pos.domain.sale.Sale.class)) {

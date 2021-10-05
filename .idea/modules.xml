@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/posapp-0105.iml" filepath="$PROJECT_DIR$/posapp-0105.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/posapp-0105.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/posapp-0105.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MobilePOS.iml" filepath="$PROJECT_DIR$/.idea/modules/MobilePOS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MobilePOS.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MobilePOS.app.iml" />
     </modules>
   </component>
 </project>

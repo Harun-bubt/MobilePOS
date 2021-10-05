@@ -78,6 +78,12 @@
             android:name="com.refresh.printerhelper.AllActivity"
             android:parentActivityName="com.refresh.printerhelper.FunctionActivity" />
 
+        <receiver android:name="com.refresh.pos.NetworkBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
         <meta-data
             android:name="android.support.VERSION"
             android:value="26.1.0" />

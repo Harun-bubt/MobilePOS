@@ -100,6 +100,8 @@ public class ProductCatalog {
 		CreHttpRequest.doHttpPost(Global._pserverUrl, params,receiver);
 	}
 
+
+
 	public void searchProductFromNetwork(String search, CreAbsActivity receiver) {
 		HashMap<String, String> params = new HashMap<>();
 		params.put("method", "product_list");

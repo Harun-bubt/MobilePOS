@@ -38,7 +38,7 @@ public class InventoryDaoNetwork implements InventoryDao {
         	ContentValues content = (ContentValues) object;
                 list.add(new Product(
                 		content.getAsInteger("_id"),
-                        content.getAsString("name"),
+                         content.getAsString("name"),
                         content.getAsString("barcode"),
                         content.getAsDouble("unit_price"))
                 );
