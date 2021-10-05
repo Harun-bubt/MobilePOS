@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: dev.dworks.libs:volleyplus:0.1.4@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/43513abd9fa3586c4d0deed9ff476cc3/volleyplus-0.1.4/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/43513abd9fa3586c4d0deed9ff476cc3/volleyplus-0.1.4/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/43513abd9fa3586c4d0deed9ff476cc3/volleyplus-0.1.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c07d84f67427195bf9caa31c30d97af6/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c07d84f67427195bf9caa31c30d97af6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c07d84f67427195bf9caa31c30d97af6/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dev.dworks.libs/volleyplus/0.1.4/811b81446561758cc15b8c2bb774397ea8ef2409/volleyplus-0.1.4-javadoc.jar!/" />

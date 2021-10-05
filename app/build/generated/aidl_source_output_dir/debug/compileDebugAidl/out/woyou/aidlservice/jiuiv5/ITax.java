@@ -1,5 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
+ * Original file: /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/aidl/woyou/aidlservice/jiuiv5/ITax.aidl
  */
 package woyou.aidlservice.jiuiv5;
 public interface ITax extends android.os.IInterface

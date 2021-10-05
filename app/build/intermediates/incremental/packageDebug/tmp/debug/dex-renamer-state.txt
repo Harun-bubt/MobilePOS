@@ -1,4 +1,4 @@
-#Tue Oct 05 09:27:24 PKT 2021
-base.0=C\:\\Android-project\\MobilePOS\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
-renamed.0=classes.dex
+#Tue Oct 05 16:51:30 PKT 2021
+base.0=/Users/quraanproject/StudioProjects/MobilePOS/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
+renamed.0=classes.dex

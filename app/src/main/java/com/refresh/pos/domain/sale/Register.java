@@ -114,12 +114,8 @@ public class Register {
 				CreHttpRequest.doHttpPost(Global._pserverUrl, params, new CreAbsActivity() {
 					@Override
 					public int onRequestSuccess(String code, String msg) {
-
-						try{
-							for(LineItem line : currentSale.getAllLineItem()){
-								stock.updateStockSum(line.getProduct().getId(), line.getQuantity());
-							}
-						}catch (Exception e){e.printStackTrace();}
+                             counter=0;
+                             postItems();
 						return 0;
 					}
 
@@ -139,10 +135,57 @@ public class Register {
 
 
 
-			currentSale = null;
 		}
 	}
-	
+
+	int counter = 0  ;
+	private void postItems(){
+
+		if(counter >= currentSale.getAllLineItem().size())
+		{
+			currentSale = null;
+			return;
+		}
+		try{
+			LineItem item = currentSale.getAllLineItem().get(counter);
+			HashMap<String, String> params = new HashMap<>();
+			//////////////////////////////////////////////////////////////////////////////
+			params.put("key", Global._papiKey);
+			params.put("method", "insertSysInvoiceItems");
+			params.put("user_id", "");
+			params.put("invoiceid", String.valueOf(currentSale.getId()));
+			params.put("itemcode", String.valueOf(item.getId()));
+			params.put("description", String.valueOf(""));
+			params.put("qty",String.valueOf(item.getQuantity()));
+			params.put("amount",String.valueOf(item.getPriceAtSale()));
+			params.put("taxed", "");
+			params.put("taxamount","");
+			params.put("total", String.valueOf(item.getTotalPriceAtSale()));
+			params.put("duedate",String.valueOf(currentSale.getEndTime()));
+
+			CreHttpRequest.doHttpPost(Global._pserverUrl, params, new CreAbsActivity() {
+				@Override
+				public int onRequestSuccess(String code, String msg) {
+					counter+=1;
+					postItems();
+					return 0;
+				}
+
+				@Override
+				public int onRequestFail(String code, String msg) {
+					return 0;
+				}
+
+				@Override
+				public void showProgress(boolean bshow) {
+
+				}
+			});
+//							for(LineItem line : currentSale.getAllLineItem()){
+//								stock.updateStockSum(line.getProduct().getId(), line.getQuantity());
+//							}
+		}catch (Exception e){e.printStackTrace();}
+	}
 	public Sale getCurrentSale() {
 		if (currentSale == null)
 			initiateSale(DateTimeStrategy.getCurrentTime());

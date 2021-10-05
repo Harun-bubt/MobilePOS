@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Android-project\\MobilePOS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "/Users/quraanproject/StudioProjects/MobilePOS/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Muhammad Ramzan\\.gradle\\caches\\transforms-2\\files-2.1\\c5855cf9f9750f5a04da998fa6b58db5\\support-media-compat-26.1.0\\res\\values-v24\\values-v24.xml",
+                    "source": "/Users/quraanproject/.gradle/caches/transforms-2/files-2.1/6e5ec773c8208e3cd92bd98fbc269904/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Muhammad Ramzan\\.gradle\\caches\\transforms-2\\files-2.1\\b88188e76418d0e850ad6614b348bf6d\\appcompat-v7-26.1.0\\res\\values-v24\\values-v24.xml",
+                    "source": "/Users/quraanproject/.gradle/caches/transforms-2/files-2.1/c098fc233bfc2f18c22120d6bdb332f0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",

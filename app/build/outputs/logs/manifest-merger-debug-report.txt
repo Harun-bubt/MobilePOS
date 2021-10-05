@@ -1,305 +1,305 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:2:1-91:12
-INJECTED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:2:1-91:12
-INJECTED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:2:1-91:12
-INJECTED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:2:1-91:12
-MERGED from [io.realm:realm-android-library:10.8.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\1a3d6fd5964301803b3fe2ef4bf722c3\realm-android-library-10.8.0\AndroidManifest.xml:2:1-10:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\4617a93fc0b794323151cf8fb4caee2a\constraint-layout-1.0.2\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\b88188e76418d0e850ad6614b348bf6d\appcompat-v7-26.1.0\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\862c7826e92691ad60cbe898b34ec845\recyclerview-v7-26.1.0\AndroidManifest.xml:17:1-28:12
-MERGED from [dev.dworks.libs:volleyplus:0.1.4] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\43513abd9fa3586c4d0deed9ff476cc3\volleyplus-0.1.4\AndroidManifest.xml:2:1-11:12
-MERGED from [com.sunmi:sunmiui:1.1.27] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\01a28bba0d87b54231a4d7cc8c0472d4\sunmiui-1.1.27\AndroidManifest.xml:2:1-18:12
-MERGED from [com.getkeepsafe.relinker:relinker:1.4.3] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\ac1734ec52318122d7a88d2bde554b39\relinker-1.4.3\AndroidManifest.xml:2:1-7:12
-MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\e0fabcbbeb4d6f7f88427d2555598ec0\rxandroid-2.1.1\AndroidManifest.xml:15:1-20:12
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\a6c6125ef8de6db30cee58040009d75b\animated-vector-drawable-26.1.0\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\5a9c4fe0020d8ee27d7925c46195bd4a\support-vector-drawable-26.1.0\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\8331cbb6660d11ce7795681347ec1c63\support-v4-26.1.0\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\1e16a586b481a0938092857853d56248\support-fragment-26.1.0\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\b9c93954aa311a771cefba917668cbc4\support-core-ui-26.1.0\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\c5855cf9f9750f5a04da998fa6b58db5\support-media-compat-26.1.0\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\cfa6fc85bd7801f79399dd00f4fba5b7\support-core-utils-26.1.0\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\b17d5f09373dfd1b2ad711929ea067be\support-compat-26.1.0\AndroidManifest.xml:17:1-31:12
-MERGED from [com.makeramen:roundedimageview:2.2.1] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\5f2d59356f309cc5688fc29e2ccb99c0\roundedimageview-2.2.1\AndroidManifest.xml:2:1-9:12
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\f189af78f48b7ad9d07c7831d3506569\runtime-1.0.0\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:2:1-91:12
-INJECTED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:2:1-91:12
-INJECTED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:2:1-91:12
+ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:2:1-91:12
+INJECTED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:2:1-91:12
+INJECTED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:2:1-91:12
+INJECTED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:2:1-91:12
+MERGED from [io.realm:realm-android-library:10.8.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/a8e29443a026ef322c4b798c123969c7/AndroidManifest.xml:2:1-10:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/ebcd628c1a630695096c75efc1419746/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/c098fc233bfc2f18c22120d6bdb332f0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/f9de23f455227a3a6fd587544c856150/AndroidManifest.xml:17:1-28:12
+MERGED from [dev.dworks.libs:volleyplus:0.1.4] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/c07d84f67427195bf9caa31c30d97af6/AndroidManifest.xml:2:1-11:12
+MERGED from [com.sunmi:sunmiui:1.1.27] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/5ada7465c3b5e0e83ad08212d05e35b7/AndroidManifest.xml:2:1-18:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.3] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/538de2c2b51a1f55800ee34fb0268708/AndroidManifest.xml:2:1-7:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/3c0b7a3f222d5666918cfb26a8215369/AndroidManifest.xml:15:1-20:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/b252b414377e18fa61c5030a5355c80b/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/3046b549e330bda1f883d1bb5a2d9e5a/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/c88d71deade5f202b04f7b9e23b6c04a/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/b475b532891ec015a6e15a621f9aab8c/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/ec3f6c62fbb0a82c9defde6958099593/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/6e5ec773c8208e3cd92bd98fbc269904/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/1d651c17e9e7f941712aa0a2341c1c92/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/3a8911ff03b4ed53901ae975987439ce/AndroidManifest.xml:17:1-31:12
+MERGED from [com.makeramen:roundedimageview:2.2.1] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/0c17d89e8287abb90625de5400f9bd91/AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/91dc936970e0626ec0ce9300cc3d1781/AndroidManifest.xml:17:1-30:12
+INJECTED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:2:1-91:12
+INJECTED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:2:1-91:12
+INJECTED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:2:1-91:12
 	package
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:3:5-30
-		INJECTED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:3:5-30
+		INJECTED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.BLUETOOTH
-ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:7:5-68
+ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:7:5-68
 	android:name
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:7:22-65
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:7:22-65
 uses-permission#android.permission.INTERNET
-ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:8:5-66
+ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:8:5-66
 	android:name
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:8:22-64
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:8:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:9:5-78
+ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:9:5-78
 	android:name
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:9:22-76
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:9:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:10:5-81
+ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:10:5-81
 	android:name
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:10:22-78
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:10:22-78
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:11:5-75
+ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:11:5-75
 	android:name
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:11:22-72
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:11:22-72
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:12:5-80
+ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:12:5-80
 	android:name
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:12:22-77
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:12:22-77
 uses-sdk
-ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:15:5-47
-INJECTED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:15:5-47
-INJECTED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:15:5-47
-MERGED from [io.realm:realm-android-library:10.8.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\1a3d6fd5964301803b3fe2ef4bf722c3\realm-android-library-10.8.0\AndroidManifest.xml:6:5-8:41
-MERGED from [io.realm:realm-android-library:10.8.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\1a3d6fd5964301803b3fe2ef4bf722c3\realm-android-library-10.8.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\4617a93fc0b794323151cf8fb4caee2a\constraint-layout-1.0.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\4617a93fc0b794323151cf8fb4caee2a\constraint-layout-1.0.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\b88188e76418d0e850ad6614b348bf6d\appcompat-v7-26.1.0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\b88188e76418d0e850ad6614b348bf6d\appcompat-v7-26.1.0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\862c7826e92691ad60cbe898b34ec845\recyclerview-v7-26.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\862c7826e92691ad60cbe898b34ec845\recyclerview-v7-26.1.0\AndroidManifest.xml:20:5-44
-MERGED from [dev.dworks.libs:volleyplus:0.1.4] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\43513abd9fa3586c4d0deed9ff476cc3\volleyplus-0.1.4\AndroidManifest.xml:7:5-43
-MERGED from [dev.dworks.libs:volleyplus:0.1.4] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\43513abd9fa3586c4d0deed9ff476cc3\volleyplus-0.1.4\AndroidManifest.xml:7:5-43
-MERGED from [com.sunmi:sunmiui:1.1.27] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\01a28bba0d87b54231a4d7cc8c0472d4\sunmiui-1.1.27\AndroidManifest.xml:7:5-9:41
-MERGED from [com.sunmi:sunmiui:1.1.27] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\01a28bba0d87b54231a4d7cc8c0472d4\sunmiui-1.1.27\AndroidManifest.xml:7:5-9:41
-MERGED from [com.getkeepsafe.relinker:relinker:1.4.3] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\ac1734ec52318122d7a88d2bde554b39\relinker-1.4.3\AndroidManifest.xml:5:5-43
-MERGED from [com.getkeepsafe.relinker:relinker:1.4.3] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\ac1734ec52318122d7a88d2bde554b39\relinker-1.4.3\AndroidManifest.xml:5:5-43
-MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\e0fabcbbeb4d6f7f88427d2555598ec0\rxandroid-2.1.1\AndroidManifest.xml:18:5-43
-MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\e0fabcbbeb4d6f7f88427d2555598ec0\rxandroid-2.1.1\AndroidManifest.xml:18:5-43
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\a6c6125ef8de6db30cee58040009d75b\animated-vector-drawable-26.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\a6c6125ef8de6db30cee58040009d75b\animated-vector-drawable-26.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\5a9c4fe0020d8ee27d7925c46195bd4a\support-vector-drawable-26.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\5a9c4fe0020d8ee27d7925c46195bd4a\support-vector-drawable-26.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\8331cbb6660d11ce7795681347ec1c63\support-v4-26.1.0\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\8331cbb6660d11ce7795681347ec1c63\support-v4-26.1.0\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\1e16a586b481a0938092857853d56248\support-fragment-26.1.0\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\1e16a586b481a0938092857853d56248\support-fragment-26.1.0\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\b9c93954aa311a771cefba917668cbc4\support-core-ui-26.1.0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\b9c93954aa311a771cefba917668cbc4\support-core-ui-26.1.0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\c5855cf9f9750f5a04da998fa6b58db5\support-media-compat-26.1.0\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\c5855cf9f9750f5a04da998fa6b58db5\support-media-compat-26.1.0\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\cfa6fc85bd7801f79399dd00f4fba5b7\support-core-utils-26.1.0\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\cfa6fc85bd7801f79399dd00f4fba5b7\support-core-utils-26.1.0\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\b17d5f09373dfd1b2ad711929ea067be\support-compat-26.1.0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\b17d5f09373dfd1b2ad711929ea067be\support-compat-26.1.0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.makeramen:roundedimageview:2.2.1] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\5f2d59356f309cc5688fc29e2ccb99c0\roundedimageview-2.2.1\AndroidManifest.xml:7:5-43
-MERGED from [com.makeramen:roundedimageview:2.2.1] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\5f2d59356f309cc5688fc29e2ccb99c0\roundedimageview-2.2.1\AndroidManifest.xml:7:5-43
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\f189af78f48b7ad9d07c7831d3506569\runtime-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\f189af78f48b7ad9d07c7831d3506569\runtime-1.0.0\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:15:5-47
-INJECTED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:15:5-47
+ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:15:5-47
+INJECTED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:15:5-47
+INJECTED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:15:5-47
+MERGED from [io.realm:realm-android-library:10.8.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/a8e29443a026ef322c4b798c123969c7/AndroidManifest.xml:6:5-8:41
+MERGED from [io.realm:realm-android-library:10.8.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/a8e29443a026ef322c4b798c123969c7/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/ebcd628c1a630695096c75efc1419746/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/ebcd628c1a630695096c75efc1419746/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/c098fc233bfc2f18c22120d6bdb332f0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/c098fc233bfc2f18c22120d6bdb332f0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/f9de23f455227a3a6fd587544c856150/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/f9de23f455227a3a6fd587544c856150/AndroidManifest.xml:20:5-44
+MERGED from [dev.dworks.libs:volleyplus:0.1.4] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/c07d84f67427195bf9caa31c30d97af6/AndroidManifest.xml:7:5-43
+MERGED from [dev.dworks.libs:volleyplus:0.1.4] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/c07d84f67427195bf9caa31c30d97af6/AndroidManifest.xml:7:5-43
+MERGED from [com.sunmi:sunmiui:1.1.27] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/5ada7465c3b5e0e83ad08212d05e35b7/AndroidManifest.xml:7:5-9:41
+MERGED from [com.sunmi:sunmiui:1.1.27] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/5ada7465c3b5e0e83ad08212d05e35b7/AndroidManifest.xml:7:5-9:41
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.3] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/538de2c2b51a1f55800ee34fb0268708/AndroidManifest.xml:5:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.3] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/538de2c2b51a1f55800ee34fb0268708/AndroidManifest.xml:5:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/3c0b7a3f222d5666918cfb26a8215369/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/3c0b7a3f222d5666918cfb26a8215369/AndroidManifest.xml:18:5-43
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/b252b414377e18fa61c5030a5355c80b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/b252b414377e18fa61c5030a5355c80b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/3046b549e330bda1f883d1bb5a2d9e5a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/3046b549e330bda1f883d1bb5a2d9e5a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/c88d71deade5f202b04f7b9e23b6c04a/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/c88d71deade5f202b04f7b9e23b6c04a/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/b475b532891ec015a6e15a621f9aab8c/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/b475b532891ec015a6e15a621f9aab8c/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/ec3f6c62fbb0a82c9defde6958099593/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/ec3f6c62fbb0a82c9defde6958099593/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/6e5ec773c8208e3cd92bd98fbc269904/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/6e5ec773c8208e3cd92bd98fbc269904/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/1d651c17e9e7f941712aa0a2341c1c92/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/1d651c17e9e7f941712aa0a2341c1c92/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/3a8911ff03b4ed53901ae975987439ce/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/3a8911ff03b4ed53901ae975987439ce/AndroidManifest.xml:21:5-23:58
+MERGED from [com.makeramen:roundedimageview:2.2.1] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/0c17d89e8287abb90625de5400f9bd91/AndroidManifest.xml:7:5-43
+MERGED from [com.makeramen:roundedimageview:2.2.1] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/0c17d89e8287abb90625de5400f9bd91/AndroidManifest.xml:7:5-43
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/91dc936970e0626ec0ce9300cc3d1781/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/91dc936970e0626ec0ce9300cc3d1781/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:15:5-47
+INJECTED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:15:5-47
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\b88188e76418d0e850ad6614b348bf6d\appcompat-v7-26.1.0\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/c098fc233bfc2f18c22120d6bdb332f0/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:15:15-44
-		INJECTED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:15:15-44
+		INJECTED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:15:5-47
-		INJECTED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:15:5-47
+		INJECTED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml
 application
-ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:17:5-89:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\4617a93fc0b794323151cf8fb4caee2a\constraint-layout-1.0.2\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\4617a93fc0b794323151cf8fb4caee2a\constraint-layout-1.0.2\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\b88188e76418d0e850ad6614b348bf6d\appcompat-v7-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\b88188e76418d0e850ad6614b348bf6d\appcompat-v7-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\862c7826e92691ad60cbe898b34ec845\recyclerview-v7-26.1.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\862c7826e92691ad60cbe898b34ec845\recyclerview-v7-26.1.0\AndroidManifest.xml:22:5-26:19
-MERGED from [dev.dworks.libs:volleyplus:0.1.4] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\43513abd9fa3586c4d0deed9ff476cc3\volleyplus-0.1.4\AndroidManifest.xml:9:5-20
-MERGED from [dev.dworks.libs:volleyplus:0.1.4] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\43513abd9fa3586c4d0deed9ff476cc3\volleyplus-0.1.4\AndroidManifest.xml:9:5-20
-MERGED from [com.sunmi:sunmiui:1.1.27] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\01a28bba0d87b54231a4d7cc8c0472d4\sunmiui-1.1.27\AndroidManifest.xml:13:5-16:19
-MERGED from [com.sunmi:sunmiui:1.1.27] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\01a28bba0d87b54231a4d7cc8c0472d4\sunmiui-1.1.27\AndroidManifest.xml:13:5-16:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\a6c6125ef8de6db30cee58040009d75b\animated-vector-drawable-26.1.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\a6c6125ef8de6db30cee58040009d75b\animated-vector-drawable-26.1.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\5a9c4fe0020d8ee27d7925c46195bd4a\support-vector-drawable-26.1.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\5a9c4fe0020d8ee27d7925c46195bd4a\support-vector-drawable-26.1.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\8331cbb6660d11ce7795681347ec1c63\support-v4-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\8331cbb6660d11ce7795681347ec1c63\support-v4-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\1e16a586b481a0938092857853d56248\support-fragment-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\1e16a586b481a0938092857853d56248\support-fragment-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\b9c93954aa311a771cefba917668cbc4\support-core-ui-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\b9c93954aa311a771cefba917668cbc4\support-core-ui-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\c5855cf9f9750f5a04da998fa6b58db5\support-media-compat-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\c5855cf9f9750f5a04da998fa6b58db5\support-media-compat-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\cfa6fc85bd7801f79399dd00f4fba5b7\support-core-utils-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\cfa6fc85bd7801f79399dd00f4fba5b7\support-core-utils-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\b17d5f09373dfd1b2ad711929ea067be\support-compat-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\b17d5f09373dfd1b2ad711929ea067be\support-compat-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\f189af78f48b7ad9d07c7831d3506569\runtime-1.0.0\AndroidManifest.xml:24:5-28:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\f189af78f48b7ad9d07c7831d3506569\runtime-1.0.0\AndroidManifest.xml:24:5-28:19
+ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:17:5-89:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/ebcd628c1a630695096c75efc1419746/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/ebcd628c1a630695096c75efc1419746/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/c098fc233bfc2f18c22120d6bdb332f0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/c098fc233bfc2f18c22120d6bdb332f0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/f9de23f455227a3a6fd587544c856150/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/f9de23f455227a3a6fd587544c856150/AndroidManifest.xml:22:5-26:19
+MERGED from [dev.dworks.libs:volleyplus:0.1.4] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/c07d84f67427195bf9caa31c30d97af6/AndroidManifest.xml:9:5-20
+MERGED from [dev.dworks.libs:volleyplus:0.1.4] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/c07d84f67427195bf9caa31c30d97af6/AndroidManifest.xml:9:5-20
+MERGED from [com.sunmi:sunmiui:1.1.27] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/5ada7465c3b5e0e83ad08212d05e35b7/AndroidManifest.xml:13:5-16:19
+MERGED from [com.sunmi:sunmiui:1.1.27] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/5ada7465c3b5e0e83ad08212d05e35b7/AndroidManifest.xml:13:5-16:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/b252b414377e18fa61c5030a5355c80b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/b252b414377e18fa61c5030a5355c80b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/3046b549e330bda1f883d1bb5a2d9e5a/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/3046b549e330bda1f883d1bb5a2d9e5a/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/c88d71deade5f202b04f7b9e23b6c04a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/c88d71deade5f202b04f7b9e23b6c04a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/b475b532891ec015a6e15a621f9aab8c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/b475b532891ec015a6e15a621f9aab8c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/ec3f6c62fbb0a82c9defde6958099593/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/ec3f6c62fbb0a82c9defde6958099593/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/6e5ec773c8208e3cd92bd98fbc269904/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/6e5ec773c8208e3cd92bd98fbc269904/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/1d651c17e9e7f941712aa0a2341c1c92/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/1d651c17e9e7f941712aa0a2341c1c92/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/3a8911ff03b4ed53901ae975987439ce/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/3a8911ff03b4ed53901ae975987439ce/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/91dc936970e0626ec0ce9300cc3d1781/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/91dc936970e0626ec0ce9300cc3d1781/AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from [com.sunmi:sunmiui:1.1.27] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\01a28bba0d87b54231a4d7cc8c0472d4\sunmiui-1.1.27\AndroidManifest.xml:15:9-35
+		ADDED from [com.sunmi:sunmiui:1.1.27] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/5ada7465c3b5e0e83ad08212d05e35b7/AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:21:9-41
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:21:9-41
 	android:icon
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:20:9-45
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:20:9-45
 	android:allowBackup
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:19:9-35
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:19:9-35
 	android:theme
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:22:9-40
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:22:9-40
 	android:name
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:18:9-57
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:18:9-57
 activity#com.refresh.pos.ui.MainActivity
-ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:23:9-26:52
+ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:23:9-26:52
 	android:screenOrientation
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:26:13-49
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:26:13-49
 	android:label
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:25:13-45
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:25:13-45
 	android:name
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:24:13-44
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:24:13-44
 activity#com.refresh.pos.ui.SplashScreenActivity
-ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:27:9-35:20
+ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:27:9-35:20
 	android:screenOrientation
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:30:13-49
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:30:13-49
 	android:launchMode
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:29:13-43
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:29:13-43
 	android:name
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:28:13-52
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:28:13-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:31:13-34:29
+ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:31:13-34:29
 action#android.intent.action.MAIN
-ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:32:17-69
+ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:32:17-69
 	android:name
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:32:25-66
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:33:17-77
+ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:33:27-74
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:33:27-74
 activity#com.refresh.pos.ui.LoginActivity
-ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:36:9-38:52
+ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:36:9-38:52
 	android:screenOrientation
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:38:13-49
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:38:13-49
 	android:name
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:37:13-45
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:37:13-45
 activity#com.refresh.pos.ui.inventory.ProductDetailActivity
-ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:39:9-41:52
+ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:39:9-41:52
 	android:screenOrientation
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:41:13-49
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:41:13-49
 	android:name
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:40:13-63
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:40:13-63
 activity#org.achartengine.GraphicalActivity
-ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:42:9-44:52
+ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:42:9-44:52
 	android:screenOrientation
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:44:13-49
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:44:13-49
 	android:name
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:43:13-62
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:43:13-62
 activity#com.refresh.pos.ui.sale.SaleDetailActivity
-ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:45:9-47:52
+ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:45:9-47:52
 	android:screenOrientation
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:47:13-49
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:47:13-49
 	android:name
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:46:13-55
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:46:13-55
 activity#com.refresh.printerhelper.FunctionActivity
-ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:48:9-49:15
+ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:48:9-49:15
 	android:name
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:48:19-76
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:48:19-76
 activity#com.refresh.printerhelper.SettingActivity
-ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:50:9-53:14
+ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:50:9-53:14
 	android:parentActivityName
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:52:13-84
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:52:13-84
 	android:name
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:51:13-69
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:51:13-69
 activity#com.refresh.printerhelper.PrinterInfoActivity
-ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:54:9-57:14
+ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:54:9-57:14
 	android:parentActivityName
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:56:13-83
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:56:13-83
 	android:name
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:55:13-73
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:55:13-73
 activity#com.refresh.printerhelper.QrActivity
-ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:58:9-61:15
+ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:58:9-61:15
 	android:parentActivityName
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:60:13-84
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:60:13-84
 	android:name
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:59:13-64
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:59:13-64
 activity#com.refresh.printerhelper.DemoActivity
-ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:63:9-66:15
+ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:63:9-66:15
 	android:parentActivityName
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:65:13-84
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:65:13-84
 	android:name
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:64:13-66
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:64:13-66
 activity#com.refresh.printerhelper.TextActivity
-ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:67:9-70:15
+ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:67:9-70:15
 	android:parentActivityName
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:69:13-84
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:69:13-84
 	android:name
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:68:13-66
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:68:13-66
 activity#com.refresh.printerhelper.BitmapActivity
-ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:71:9-74:15
+ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:71:9-74:15
 	android:parentActivityName
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:73:13-84
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:73:13-84
 	android:name
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:72:13-68
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:72:13-68
 activity#com.refresh.printerhelper.TableActivity
-ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:75:9-78:15
+ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:75:9-78:15
 	android:parentActivityName
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:77:13-84
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:77:13-84
 	android:name
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:76:13-67
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:76:13-67
 activity#com.refresh.printerhelper.AllActivity
-ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:79:9-82:15
+ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:79:9-82:15
 	android:parentActivityName
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:81:13-84
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:81:13-84
 	android:name
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:80:13-65
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:80:13-65
 receiver#com.refresh.pos.NetworkBroadcastReceiver
-ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:84:9-88:20
+ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:84:9-88:20
 	android:name
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:84:19-59
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:84:19-59
 intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
-ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:85:13-87:29
+ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:85:13-87:29
 action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:86:17-79
+ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:86:17-79
 	android:name
-		ADDED from C:\Android-project\MobilePOS\app\src\main\AndroidManifest.xml:86:25-76
+		ADDED from /Users/quraanproject/StudioProjects/MobilePOS/app/src/main/AndroidManifest.xml:86:25-76
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\b88188e76418d0e850ad6614b348bf6d\appcompat-v7-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\862c7826e92691ad60cbe898b34ec845\recyclerview-v7-26.1.0\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\862c7826e92691ad60cbe898b34ec845\recyclerview-v7-26.1.0\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\a6c6125ef8de6db30cee58040009d75b\animated-vector-drawable-26.1.0\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\a6c6125ef8de6db30cee58040009d75b\animated-vector-drawable-26.1.0\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\5a9c4fe0020d8ee27d7925c46195bd4a\support-vector-drawable-26.1.0\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\5a9c4fe0020d8ee27d7925c46195bd4a\support-vector-drawable-26.1.0\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\8331cbb6660d11ce7795681347ec1c63\support-v4-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\8331cbb6660d11ce7795681347ec1c63\support-v4-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\1e16a586b481a0938092857853d56248\support-fragment-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\1e16a586b481a0938092857853d56248\support-fragment-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\b9c93954aa311a771cefba917668cbc4\support-core-ui-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\b9c93954aa311a771cefba917668cbc4\support-core-ui-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\c5855cf9f9750f5a04da998fa6b58db5\support-media-compat-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\c5855cf9f9750f5a04da998fa6b58db5\support-media-compat-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\cfa6fc85bd7801f79399dd00f4fba5b7\support-core-utils-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\cfa6fc85bd7801f79399dd00f4fba5b7\support-core-utils-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\b17d5f09373dfd1b2ad711929ea067be\support-compat-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\b17d5f09373dfd1b2ad711929ea067be\support-compat-26.1.0\AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/c098fc233bfc2f18c22120d6bdb332f0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/f9de23f455227a3a6fd587544c856150/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/f9de23f455227a3a6fd587544c856150/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/b252b414377e18fa61c5030a5355c80b/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/b252b414377e18fa61c5030a5355c80b/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/3046b549e330bda1f883d1bb5a2d9e5a/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/3046b549e330bda1f883d1bb5a2d9e5a/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/c88d71deade5f202b04f7b9e23b6c04a/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/c88d71deade5f202b04f7b9e23b6c04a/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/b475b532891ec015a6e15a621f9aab8c/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/b475b532891ec015a6e15a621f9aab8c/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/ec3f6c62fbb0a82c9defde6958099593/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/ec3f6c62fbb0a82c9defde6958099593/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/6e5ec773c8208e3cd92bd98fbc269904/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/6e5ec773c8208e3cd92bd98fbc269904/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/1d651c17e9e7f941712aa0a2341c1c92/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/1d651c17e9e7f941712aa0a2341c1c92/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/3a8911ff03b4ed53901ae975987439ce/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/3a8911ff03b4ed53901ae975987439ce/AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\b88188e76418d0e850ad6614b348bf6d\appcompat-v7-26.1.0\AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/c098fc233bfc2f18c22120d6bdb332f0/AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\b88188e76418d0e850ad6614b348bf6d\appcompat-v7-26.1.0\AndroidManifest.xml:27:13-51
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/c098fc233bfc2f18c22120d6bdb332f0/AndroidManifest.xml:27:13-51
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from [com.sunmi:sunmiui:1.1.27] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\01a28bba0d87b54231a4d7cc8c0472d4\sunmiui-1.1.27\AndroidManifest.xml:11:5-78
+ADDED from [com.sunmi:sunmiui:1.1.27] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/5ada7465c3b5e0e83ad08212d05e35b7/AndroidManifest.xml:11:5-78
 	android:name
-		ADDED from [com.sunmi:sunmiui:1.1.27] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\01a28bba0d87b54231a4d7cc8c0472d4\sunmiui-1.1.27\AndroidManifest.xml:11:22-75
+		ADDED from [com.sunmi:sunmiui:1.1.27] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/5ada7465c3b5e0e83ad08212d05e35b7/AndroidManifest.xml:11:22-75
 meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\f189af78f48b7ad9d07c7831d3506569\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/91dc936970e0626ec0ce9300cc3d1781/AndroidManifest.xml:25:9-27:47
 	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\f189af78f48b7ad9d07c7831d3506569\runtime-1.0.0\AndroidManifest.xml:27:13-44
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/91dc936970e0626ec0ce9300cc3d1781/AndroidManifest.xml:27:13-44
 	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Muhammad Ramzan\.gradle\caches\transforms-2\files-2.1\f189af78f48b7ad9d07c7831d3506569\runtime-1.0.0\AndroidManifest.xml:26:13-58
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/quraanproject/.gradle/caches/transforms-2/files-2.1/91dc936970e0626ec0ce9300cc3d1781/AndroidManifest.xml:26:13-58
