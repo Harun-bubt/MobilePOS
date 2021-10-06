@@ -22,6 +22,8 @@ import io.realm.annotations.PrimaryKey;
 public class Sale extends RealmObject {
 	@PrimaryKey
 	private  int id;
+
+	private Boolean endSaleAttempted = false;
 	private String startTime;
 	private String endTime;
 	private String status;
@@ -118,6 +120,48 @@ public class Sale extends RealmObject {
 
 	public double getdiscount(){
 		return discount;
+	}
+
+	public Boolean getEndSaleAttempted() {
+		return endSaleAttempted;
+	}
+
+	public void setEndSaleAttempted(Boolean endSaleAttempted) {
+		this.endSaleAttempted = endSaleAttempted;
+	}
+
+	public void setStartTime(String startTime) {
+		this.startTime = startTime;
+	}
+
+	public void setEndTime(String endTime) {
+		this.endTime = endTime;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
+
+	public void setTotal(Double total) {
+		this.total = total;
+	}
+
+	public void setItems(RealmList<LineItem> items) {
+		this.items = items;
+	}
+
+
+	public Double getDiscount() {
+		return discount;
+	}
+
+	public Long getMobile() {
+		return mobile;
+	}
+
+	public RealmList<LineItem> getItems() {
+		return items;
 	}
 
 	public void setDiscount(Double discount) {

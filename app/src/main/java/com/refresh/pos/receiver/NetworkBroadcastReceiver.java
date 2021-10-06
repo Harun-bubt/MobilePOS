@@ -8,7 +8,7 @@ import android.net.NetworkInfo;
 
 import com.refresh.pos.ui.CreAbsActivity;
 
-public class NetworkBroadcastReceiver extends BroadcastReceiver  implements CreAbsActivity {
+public class NetworkBroadcastReceiver extends BroadcastReceiver  {
 
     @Override
     public void onReceive(final Context context, final Intent intent) {
@@ -23,18 +23,4 @@ public class NetworkBroadcastReceiver extends BroadcastReceiver  implements CreA
         return activeNetworkInfo != null && activeNetworkInfo.isConnected();
     }
 
-    @Override
-    public int onRequestSuccess(String code, String msg) {
-        return 0;
-    }
-
-    @Override
-    public int onRequestFail(String code, String msg) {
-        return 0;
-    }
-
-    @Override
-    public void showProgress(boolean bshow) {
-
-    }
 }

@@ -82,8 +82,8 @@ public class Register {
 		if (currentSale != null) {
 			currentSale.setMobile(mobile);
 			currentSale.setDiscount(discount);
+			currentSale.set
 			saleDao.endSale(currentSale, endTime,mobile,discount);
-
 				HashMap<String, String> params = new HashMap<>();
 				//////////////////////////////////////////////////////////////////////////////
 				params.put("key", Global._papiKey);
@@ -186,6 +186,7 @@ public class Register {
 //							}
 		}catch (Exception e){e.printStackTrace();}
 	}
+
 	public Sale getCurrentSale() {
 		if (currentSale == null)
 			initiateSale(DateTimeStrategy.getCurrentTime());

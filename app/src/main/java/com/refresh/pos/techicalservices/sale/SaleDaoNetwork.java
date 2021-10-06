@@ -32,21 +32,21 @@ public class SaleDaoNetwork implements SaleDao {
 		this.database = database;
 	}
 	
-	public Sale initiateSale(String startTime) {
-		ContentValues content = new ContentValues();
-        content.put("start_time", startTime.toString());
-        content.put("status", "ON PROCESS");
-        content.put("mobile","");
-        content.put("discount","");
-        content.put("payment", "n/a");
-        content.put("total", "0.0");
-        content.put("orders", "0");
-        content.put("end_time", startTime.toString());
-        
-        int id = database.insert(DatabaseContents.TABLE_SALE.toString(), content);
-        double discount=database.insert(DatabaseContents.TABLE_SALE.toString(), content);
-        long mobile=database.insert(DatabaseContents.TABLE_SALE.toString(), content);
-		return new Sale(id,startTime,mobile,  discount);
+	public void initiateSale(String startTime) {
+//		ContentValues content = new ContentValues();
+//        content.put("start_time", startTime.toString());
+//        content.put("status", "ON PROCESS");
+//        content.put("mobile","");
+//        content.put("discount","");
+//        content.put("payment", "n/a");
+//        content.put("total", "0.0");
+//        content.put("orders", "0");
+//        content.put("end_time", startTime.toString());
+//
+//        int id = database.insert(DatabaseContents.TABLE_SALE.toString(), content);
+//        double discount=database.insert(DatabaseContents.TABLE_SALE.toString(), content);
+//        long mobile=database.insert(DatabaseContents.TABLE_SALE.toString(), content);
+//		return new Sale(id,startTime,mobile,  discount);
 	}
 
 	@Override

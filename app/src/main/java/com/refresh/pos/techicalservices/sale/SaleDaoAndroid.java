@@ -3,6 +3,7 @@ package com.refresh.pos.techicalservices.sale;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
+import java.util.Random;
 
 import android.content.ContentValues;
 
@@ -14,6 +15,7 @@ import com.refresh.pos.domain.sale.Sale;
 import com.refresh.pos.techicalservices.Database;
 import com.refresh.pos.techicalservices.DatabaseContents;
 
+import io.realm.Realm;
 import io.realm.RealmList;
 
 
@@ -30,21 +32,25 @@ public class SaleDaoAndroid implements SaleDao {
 		this.database = database;
 	}
 	
-	public Sale initiateSale(String startTime) {
-		ContentValues content = new ContentValues();
-        content.put("start_time", startTime.toString());
-        content.put("status", "ON PROCESS");
-        content.put("mobile","");
-        content.put("discount","");
-        content.put("payment", "n/a");
-        content.put("total", "0.0");
-        content.put("orders", "0");
-        content.put("end_time", startTime.toString());
+	public void initiateSale(final String startTime) {
+
+		Realm realm = Realm.getInstance(Realm.getDefaultConfiguration());
+
+		realm.executeTransaction(new Realm.Transaction() {
+			@Override
+			public void execute(Realm realm) {
+				Sale sale = new Sale(new Random().nextInt( 999999999) ,startTime.toString(),0l,  0.0);
+				sale.setStatus("ON PROCESS");
+				sale.setTotal(0.0);
+				sale.setEndTime(startTime);
+
+			}
+		});
+
         
-        int id = database.insert(DatabaseContents.TABLE_SALE.toString(), content);
-        double discount=database.insert(DatabaseContents.TABLE_SALE.toString(), content);
-        long mobile=database.insert(DatabaseContents.TABLE_SALE.toString(), content);
-		return new Sale(id,startTime,mobile,  discount);
+
+
+
 	}
 
 	@Override

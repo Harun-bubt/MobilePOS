@@ -17,7 +17,7 @@ import io.realm.RealmList;
  */
 public interface SaleDao {
 
-	Sale initiateSale(String startTime);
+	void initiateSale(String startTime);
 
 	void endSale(Sale sale, String endTime,Long mobile,Double discount);
 
