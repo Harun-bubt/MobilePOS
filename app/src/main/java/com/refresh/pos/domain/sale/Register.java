@@ -13,6 +13,8 @@ import com.refresh.pos.ui.CreAbsActivity;
 
 import java.util.HashMap;
 
+import io.realm.Realm;
+
 /**
  * Handles all Sale processes.
  *
@@ -47,12 +49,9 @@ public class Register {
 		saleDao = dao;	
 	}
 	
-	public Sale initiateSale(String startTime) {
-		if (currentSale != null) {
-			return currentSale;
-		}
-		currentSale = saleDao.initiateSale(startTime);
-		return currentSale;
+	public void initiateSale(String startTime) {
+	 saleDao.initiateSale(startTime);
+
 	}
 	
 	public LineItem addItem(Product product, int quantity) {
@@ -82,7 +81,6 @@ public class Register {
 		if (currentSale != null) {
 			currentSale.setMobile(mobile);
 			currentSale.setDiscount(discount);
-			currentSale.set
 			saleDao.endSale(currentSale, endTime,mobile,discount);
 				HashMap<String, String> params = new HashMap<>();
 				//////////////////////////////////////////////////////////////////////////////
@@ -197,8 +195,15 @@ public class Register {
 //		if (currentSale == null)
 //			initiateSale(DateTimeStrategy.getCurrentTime());
 //		return currentSale;
-		
-		currentSale = saleDao.getSaleById(id);
+		try {
+
+
+
+
+
+			currentSale = Realm.getDefaultInstance().where(Sale.class).equalTo("id",String.valueOf( id)).findFirst();
+
+		}catch (Exception e ){e.printStackTrace();}
 		return false;
 	}
 	public boolean hasSale(){

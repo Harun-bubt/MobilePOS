@@ -4,6 +4,9 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5ada7465c3b5e0e83ad08212d05e35b7/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5ada7465c3b5e0e83ad08212d05e35b7/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5ada7465c3b5e0e83ad08212d05e35b7/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/948ebbdc2cd4bd18316fd361f026db1a/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/948ebbdc2cd4bd18316fd361f026db1a/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/948ebbdc2cd4bd18316fd361f026db1a/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sunmi/sunmiui/1.1.27/5c5fe129c8033d75cdca28407c516a3c16163654/sunmiui-1.1.27-javadoc.jar!/" />
